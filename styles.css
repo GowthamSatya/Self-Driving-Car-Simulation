@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: darkgray;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 0 20px;
+}
+
+#verticalButtons {
+	display: flex;
+	flex-direction: column;
+}
+
+.right_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 10px;
+}
+
+.save {
+	padding: 10px;
+	background-color: rgb(33, 105, 249);
+	color: white;
+}
+
+.discard {
+	padding: 10px;
+	background-color: rgb(248, 56, 56);
+	color: white;
+}
+
+.save:hover {
+	background-color: rgb(11, 85, 232);
+}
+
+.discard:hover {
+	background-color: rgb(207, 16, 16);
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	padding: 5px 5px 7px 7px;
+	font-size: 16px;
+	margin: 2px;
+	cursor: pointer;
+}
+
+#carCanvas {
+	background-color: rgb(65, 65, 65);
+}
+
+#networkCanvas {
+	background-color: black;
+	border-radius: 30px;
+}
